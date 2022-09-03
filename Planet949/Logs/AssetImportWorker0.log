@@ -15,7 +15,7 @@ C:/Users/ZJNic/OneDrive/Documents/GitHub/Planet949/Planet949
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58891
+52877
 Successfully changed project path to: C:/Users/ZJNic/OneDrive/Documents/GitHub/Planet949/Planet949
 C:/Users/ZJNic/OneDrive/Documents/GitHub/Planet949/Planet949
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/ZJNic/OneDrive/Documents/GitHub/Planet949/Planet949
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 94.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,74 +63,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008826 seconds.
+Registered in 0.009670 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
+- Completed reload, in  0.652 seconds
 Domain Reload Profiling:
-	ReloadAssembly (679ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (473ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (109ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
+				RefreshPlugins (86ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010766 seconds.
+Registered in 0.010937 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ZJNic\OneDrive\Documents\GitHub\Planet949\Planet949\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ZJNic\OneDrive\Documents\GitHub\Planet949\Planet949\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 86.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.245 seconds
+- Completed reload, in  1.255 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1245ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1000ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (268ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (534ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (538ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (295ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (299ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
@@ -139,13 +139,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3558 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 48 unused Assets / (0.6 MB). Loaded Objects now: 4037.
 Memory consumption went from 171.2 MB to 170.6 MB.
-Total: 5.822400 ms (FindLiveObjects: 0.485000 ms CreateObjectMapping: 0.497400 ms MarkObjects: 4.429100 ms  DeleteObjects: 0.409400 ms)
+Total: 3.276000 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.232700 ms MarkObjects: 2.497500 ms  DeleteObjects: 0.254200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,73 +160,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2098825.396071 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge06_Brush.brush
-  artifactKey: Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge06_Brush.brush using Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527bcc4c2391125deead531c8c0b834d') in 0.178890 seconds 
+  Time since last request: 2103674.032400 seconds.
+  path: Assets/TerrainSampleAssets
+  artifactKey: Guid(19f1d4437e8010e4aab3aa6d83d2b602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets using Guid(19f1d4437e8010e4aab3aa6d83d2b602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd9839ec6490b716b7ff0442f132228') in 0.010579 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge05_Brush.brush
-  artifactKey: Guid(014d61beb3975e849b26bc42fbf17b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge05_Brush.brush using Guid(014d61beb3975e849b26bc42fbf17b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cec13e85c70a0cf936ce89216b3dfdf') in 0.051678 seconds 
+  Time since last request: 8.798974 seconds.
+  path: Assets/TerrainSampleAssets/Textures
+  artifactKey: Guid(2c15104c220656a448f8a2cd8dcd672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures using Guid(2c15104c220656a448f8a2cd8dcd672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c75bd394259af43566940db7fa2a6b') in 0.010846 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.486931 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Island01_Brush.brush
-  artifactKey: Guid(52ed55fadd8d2b34cb0f9f08adb04a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Island01_Brush.brush using Guid(52ed55fadd8d2b34cb0f9f08adb04a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cd9319c2ac1ae0d1f7358d4fb27bcd') in 0.025178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.676462 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Hills02_Brush.brush
-  artifactKey: Guid(f31e3331ec5f6954e8c6ac51cc3d8c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Hills02_Brush.brush using Guid(f31e3331ec5f6954e8c6ac51cc3d8c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e915e99c2e1370926e9ffc19ec5c76f') in 0.028885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.472027 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain03_Brush.brush
-  artifactKey: Guid(f11a285f166a0f6499471bc2b3deaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain03_Brush.brush using Guid(f11a285f166a0f6499471bc2b3deaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8765af65ed307b4c0a74f69e48726abf') in 0.031272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.375527 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Plateau01_Brush.brush
-  artifactKey: Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Plateau01_Brush.brush using Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65519ad6517eefcf8458a5d66b42b765') in 0.031324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.590856 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain09_Brush.brush
-  artifactKey: Guid(9159bc656b82f2b4b80e93118991ddc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain09_Brush.brush using Guid(9159bc656b82f2b4b80e93118991ddc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f63624a795446542d2fa28fafc7295') in 0.030446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.997599 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon01_Brush.brush
-  artifactKey: Guid(9b1536174e1306f4eb016fe953e5a678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon01_Brush.brush using Guid(9b1536174e1306f4eb016fe953e5a678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16695a774011f4234726e6b3ce9ae48') in 0.031208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.568892 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope01_Brush.brush
-  artifactKey: Guid(d09f2ace661e1be4a8b5e60d52ab9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope01_Brush.brush using Guid(d09f2ace661e1be4a8b5e60d52ab9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51300596e6d0e2d419883bc15eda1573') in 0.036958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.358281 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope04_Brush.brush
-  artifactKey: Guid(da7c572fc46d2a345963c4775ee9dc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope04_Brush.brush using Guid(da7c572fc46d2a345963c4775ee9dc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed7c9dadaa61fcb686ad808308ee0ed') in 0.031529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.340441 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Softpeaks01_Brush.brush
-  artifactKey: Guid(7eae67bc3f75e02478ed0f5c2d4498cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Softpeaks01_Brush.brush using Guid(7eae67bc3f75e02478ed0f5c2d4498cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e8a0932fa8c3a1ace3897e157a8fc0') in 0.016159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.812712 seconds.
-  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Volcano02_Brush.brush
-  artifactKey: Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Volcano02_Brush.brush using Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbdb2067e59b14cfe1ba1da71ba3334') in 0.018229 seconds 
+  Time since last request: 4.562290 seconds.
+  path: Assets/TerrainSampleAssets/ThirdPartyNotices.txt
+  artifactKey: Guid(408677bd09874114a90a745e08fd2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/ThirdPartyNotices.txt using Guid(408677bd09874114a90a745e08fd2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cf1a4da66e5d1772811b423217563f') in 0.073959 seconds 
